@@ -1,6 +1,6 @@
 import spacy
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_lg')
 doc = nlp(u'Hi, I\'m Gary Sieling and I work for Wingspan Technology. IQVIA is hiring')
 
 for ent in doc.ents:
